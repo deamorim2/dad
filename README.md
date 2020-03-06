@@ -20,7 +20,7 @@ Pydro 1.2+ (https://github.com/deamorim2/pydro)
 
 GDAL/OGR 2.1.2+
 
-QGIS 2.x ()
+QGIS 2.x (https://www.qgis.org/en/site/)
 
 Windows O.S.
 
@@ -35,10 +35,15 @@ Windows O.S.
 ## SYSTEM ENVIRONMENTAL SETUP (WINDOWS)
 
 PATH=C:\Program Files\QGIS 2.18\bin (put this first in the list)
+
 PATH=C:\Program Files\terrahidro5.1.0\bin
+
 GDAL_DATA=C:\Program Files\QGIS 2.18\share\gdal
+
 GDAL_DRIVER_PATH=C:\Program Files\QGIS 2.18\bin\gdalplugins
+
 PYTHONPATH=C:\Program Files\QGIS 2.18\apps\Python27\Lib
+
 PYTHONHOME=C:\Program Files\QGIS 2.18\apps\Python27
 
 ## GRASS SETUP

@@ -1,4 +1,4 @@
-# Drainage Area Delineation
+# Drainage Area Delineation(DAD)
 
 Methodology to automatically delineate drainage areas using Digital Elevation Model(DEM) and hydrography derived from cartography.
 
@@ -12,7 +12,7 @@ The develop branch has the next minor release. (1.1-dev)
 
 ## INTRODUCTION
 
-This methodology uses tools from pydro project(https://github.com/deamorim2/pydro), TerraHidro software () and GDAL/OGR library.
+This methodology uses tools from pydro project(https://github.com/deamorim2/pydro), TerraHidro software(http://www.dpi.inpe.br/terrahidro/doku.php) and GDAL/OGR library.
 
 ## REQUIREMENTS
 
@@ -27,6 +27,7 @@ Windows O.S.
 ## INSTALLATION (v.1.0)
 
 - Install Terra Hidro Console 5.0.1 and QGIS 2.x
+
 - Download and copy the content of this release to the workspace directory.
 
 ## SETUP

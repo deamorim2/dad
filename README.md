@@ -48,13 +48,13 @@ PYTHONHOME=C:\Program Files\QGIS 2.18\apps\Python27
 
 ## GRASS SETUP
 
-Open C:\Program Files\QGIS 2.x\bin\grass7x.bat file and set OSGEO4W_ROOT to "C:\Program Files\QGIS 2.x" instead of C:\OSGeo4W64
+Open _C:\Program Files\QGIS 2.x\bin\grass7x.bat_ file and set _OSGEO4W_ROOT_ to _"C:\Program Files\QGIS 2.x"_ instead of _C:\OSGeo4W64_
 
 ## SCRIPT SETUP (WINDOWS)
 
 Edit the _Drainage_Area_Delineation--1.2_tutorial.bat_ and replace the _C:\Program Files\QGIS 2.x_ with the actual QGIS version in your computer as well as the workspace directory.
 
-If needed, do the same thing to the _generalize_polygon.bat_ and _generalize_line.bat_ files
+If needed, do the same thing to the _generalize_polygon.bat_ and _generalize_line.bat_ files.
 
 ## USAGE
 

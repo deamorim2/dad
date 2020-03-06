@@ -12,7 +12,11 @@ The develop branch has the next minor release. (1.1-dev)
 
 ## INTRODUCTION
 
-This methodology uses tools from pydro project (https://github.com/deamorim2/pydro) , TerraHidro software(http://www.dpi.inpe.br/terrahidro/doku.php) and GDAL/OGR library.
+This methodology uses tools from:
+
+- pydro project (https://github.com/deamorim2/pydro)
+- TerraHidro software(http://www.dpi.inpe.br/terrahidro/doku.php) and
+- GDAL/OGR library.
 
 ## REQUIREMENTS
 

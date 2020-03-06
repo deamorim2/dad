@@ -30,6 +30,8 @@ Windows O.S.
 
 - Download and copy the content of this release to the workspace directory.
 
+- Download the content of this LINK (https://drive.google.com/drive/folders/15jPPmPOUh7SL6Ozkg9v1lof17W9FQ83a?usp=sharing) to the workspace directory.
+
 ## SETUP
 
 ## SYSTEM ENVIRONMENTAL SETUP (WINDOWS)

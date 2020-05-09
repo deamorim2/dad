@@ -22,7 +22,7 @@ ECHO  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 ECHO
 
 ECHO ---------------------------------------------------------------------------------
-ECHO Drainage Area Delineation Tutorial version 1.2 of 11/02/2020
+ECHO Drainage Area Delineation Tutorial version 1.4 of 09/05/2020
 ECHO ---------------------------------------------------------------------------------
 
 REM ============================
@@ -33,7 +33,7 @@ REM ============================
 :: QGIS 2.18 (https://qgis.org/)
 :: Python 2.7
 :: GDAL 2.4.0
-:: pydro_agreedem_gdal.py 1.2 (https://github.com/deamorim2/pydro)
+:: pydro_agreedem_gdal.py 1.4 (https://github.com/deamorim2/pydro)
 :: pydro_flow_path.py 1.0 (https://github.com/deamorim2/pydro)
 
 REM ============================

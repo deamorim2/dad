@@ -6,9 +6,9 @@ Methodology to automatically delineate drainage areas using Digital Elevation Mo
 
 ## Branches
 
-The master branch has the latest minor release. (1.0)
+The master branch has the latest minor release. (1.2)
 
-The develop branch has the next minor release. (1.1-dev)
+The develop branch has the next minor release. (1.3-dev)
 
 ## INTRODUCTION
 
@@ -20,7 +20,7 @@ This methodology uses tools from:
 
 ## REQUIREMENTS
 
-Pydro 1.2+ (https://github.com/deamorim2/pydro)
+Pydro 1.4+ (https://github.com/deamorim2/pydro)
 
 GDAL/OGR 2.1.2+
 
@@ -28,7 +28,7 @@ QGIS 2.x (https://www.qgis.org/en/site/)
 
 Windows O.S.
 
-## INSTALLATION (v.1.0)
+## INSTALLATION (v.1.2)
 
 - Install Terra Hidro Console 5.0.1 and QGIS 2.x
 

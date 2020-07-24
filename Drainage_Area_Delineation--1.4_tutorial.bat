@@ -34,7 +34,7 @@ REM ============================
 :: Python 2.7
 :: GDAL 2.4.0
 :: pydro_agreedem_gdal.py 1.4 (https://github.com/deamorim2/pydro)
-:: pydro_flow_path.py 1.0 (https://github.com/deamorim2/pydro)
+:: pydro_flowpath.py 1.2 (https://github.com/deamorim2/pydro)
 
 REM ============================
 REM INSTALLATION

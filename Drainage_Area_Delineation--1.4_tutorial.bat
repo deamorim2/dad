@@ -132,7 +132,7 @@ ECHO ============================
 ECHO Agreedem
 ECHO ============================
 
-python pydro_agreedem_gdal.py -w C:/workspace/ -hy C:/workspace/tdr.shp -i C:/workspace/img02.tif -o C:/workspace/agreedem.tif -bf 2 -sm 5 -sh 100 -gd "C:/Program Files/QGIS 2.18/bin" -od "C:/Program Files/QGIS 2.18/bin"
+python pydro_agreedem_gdal.py -w e:/dad/ -hy e:/dad/tdr.shp -i e:/dad/img02.tif -o e:/dad/agreedem.tif -bf 2 -sm 5 -sh 100 -gd "C:/Program Files/QGIS 2.18/bin" -od "C:/Program Files/QGIS 2.18/bin"
 
 :: Section 3: Remove Pits
 ECHO ============================
@@ -160,7 +160,7 @@ ECHO ============================
 ECHO Flow Path Since Source
 ECHO ============================
 
-python pydro_flowpath.py -w C:/workspace/ -s source.shp -i flowdirection.tif -o flowpath.tif -f a
+python pydro_flowpath.py -w e:/dad/ -s source.shp -i flowdirection.tif -o flowpath.tif -f a
 
 :: Section 7: Stream Network
 ECHO ============================
@@ -188,14 +188,14 @@ ECHO ============================
 ECHO Sieve(Filter)
 ECHO ============================
 
-python "C:\Program Files\QGIS 2.18\bin\gdal_sieve.py" -st 3 C:\workspace\outputMinibasins.tif C:\workspace\outputMinibasins3.tif
+python "C:\Program Files\QGIS 2.18\bin\gdal_sieve.py" -st 3 e:\dad\outputMinibasins.tif e:\dad\outputMinibasins3.tif
 
 :: Section 11: Polygonize
 ECHO ============================
 ECHO Polygonize
 ECHO ============================
 
-python "C:\Program Files\QGIS 2.18\bin\gdal_polygonize.py" C:\workspace\outputMinibasins3.tif -f "ESRI Shapefile" C:/workspace/dra.shp dra
+python "C:\Program Files\QGIS 2.18\bin\gdal_polygonize.py" e:\dad\outputMinibasins3.tif -f GPKG e:/dad/dra.gpkg
 
 PAUSE
 
@@ -204,6 +204,6 @@ ECHO ============================
 ECHO Polygon Smoothing
 ECHO ============================
 
-"C:\Program Files\QGIS 2.18\bin\grass76.bat" --tmp-location "c:\workspace\dra.shp" --exec "c:\workspace\generalize_polygon.bat"
+"C:\Program Files\QGIS 2.18\bin\grass76.bat" --tmp-location "e:\dad\dra.gpkg" --exec "e:\dad\generalize_polygon.bat"
 
 PAUSE

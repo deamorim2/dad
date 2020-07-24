@@ -1,4 +1,4 @@
-# Copyright (c) 2017 Gustavo S. F. Molleri (gustavo.molleri@gmail.com), Alexandre de Amorim Teixeira, (deamorim2@gmail.com)
+# Copyright (c) 2020 Gustavo S. F. Molleri (gustavo.molleri@gmail.com), Alexandre de Amorim Teixeira, (deamorim2@gmail.com)
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General pghydro License as published by
@@ -21,7 +21,7 @@
 #------------
 
 #--------------------------
-#VERSION 1.0 of 01/12/2017
+#VERSION 1.2 of 14/05/2020
 #--------------------------
 
 #--------------------------
@@ -34,7 +34,6 @@
 
 # Modulos utilizados
 import os, sys, argparse
-
 # from numpy import *
 import numpy
 
@@ -53,6 +52,7 @@ parser.add_argument("-s", "--source_points", action="store", dest="shp_name", he
 parser.add_argument("-i", "--input_flow_direction", action="store", dest="infile_name", help="Flow Direction File Name")
 parser.add_argument("-o", "--output_flow_path_file", action="store", dest="outfile_name", help="Flow Path Output File Name")
 parser.add_argument("-f", "--flow", action="store", dest="type_flow_direction", help="Type of Flow Direction: Taudem=t ArcGIS/TerraHydro=a", default='t')
+
 
 args = parser.parse_args()
 
@@ -200,7 +200,7 @@ class Stream():
 	# Cria matriz com informacao do fluxo		
 	def matriz(self):
 		# print "\n- Criando matriz ...\n"
-		self.matriz = numpy.zeros((self.nlin,self.ncol), dtype=numpy.int)		
+		self.matriz = numpy.zeros((self.nlin,self.ncol), dtype=numpy.int8)		
 
 	
 		

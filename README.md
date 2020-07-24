@@ -6,9 +6,9 @@ Methodology to automatically delineate drainage areas using Digital Elevation Mo
 
 ## Branches
 
-The master branch has the latest minor release. (1.2)
+The master branch has the latest minor release. (1.4)
 
-The develop branch has the next minor release. (1.3-dev)
+The develop branch has the next minor release. (1.5-dev)
 
 ## INTRODUCTION
 
@@ -58,15 +58,15 @@ Open _C:\Program Files\QGIS 2.x\bin\grass7x.bat_ file and set _OSGEO4W_ROOT_ to 
 
 ## SCRIPT SETUP (WINDOWS)
 
-Edit the _Drainage_Area_Delineation--1.2_tutorial.bat_ and replace the _C:\Program Files\QGIS 2.x_ with the actual QGIS version in your computer as well as the workspace directory.
+Edit the _Drainage_Area_Delineation--1.4_tutorial.bat_ and replace the _C:\Program Files\QGIS 2.x_ with the actual QGIS version in your computer as well as the workspace directory.
 
 If needed, do the same thing to the _generalize_polygon.bat_ and _generalize_line.bat_ files.
 
 ## USAGE
 
-**Drainage_Area_Delineation--1.2_tutorial.bat**
+**Drainage_Area_Delineation--1.4_tutorial.bat**
 
->Open and type in the terminal each one of the commands in the _Drainage_Area_Delineation--1.2_tutorial.bat_ file or execute it at once.
+>Open and type in the terminal each one of the commands in the _Drainage_Area_Delineation--1.4_tutorial.bat_ file or execute it at once.
 
 ## LINKS
 
